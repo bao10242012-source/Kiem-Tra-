@@ -1,0 +1,47 @@
+Kiem Tra
+Trac  Nghiem:
+1. B 
+2. C
+3. C
+4. B
+5. B
+6. A
+7. B
+8. B
+9. D
+10. A
+Thuc Hanh:
+x = int(input("Nhap so kwh tieu thu: "))
+tien = 0
+if x <= 50:
+	tien = x * 1700
+elif x <= 100:
+	tien = 50 * 1700 + (x - 50) * 1900
+elif x <= 200:
+	tien = 50 * 1700 + 50 * 1900 + (x - 100) * 2100
+else:
+	tien = 50 * 1700 + 50 * 1900 + 100 * 2100 + (x - 200) * 3000
+print("So tien phai tra la: ", tien, "dong")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                     
+
+
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												
